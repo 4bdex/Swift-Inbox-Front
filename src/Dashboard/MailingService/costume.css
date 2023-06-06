@@ -1,0 +1,64 @@
+from{
+    background: #fff;
+    width: 500px;
+    padding: 30px;
+    
+    font-size: 15px;
+
+}
+form input, textarea{
+    /* margin-top: 10px; */
+    height: 45px;
+	width: 100%;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	padding-left: 15px;
+	font-size: 16px;
+	border-bottom-width: 2px ;
+	transition: all 0.3 ease;
+    margin-bottom: 10px;
+    
+}
+
+.costumefrom form input, textarea{
+    /* margin-top: 10px; */
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+   
+    border-bottom: 1px solid #786767;
+    outline: none;
+}
+#input-feild{
+ 
+   
+    align-items: center;
+
+}
+#input-feild input{
+    padding: 10px;
+    padding-inline: 5px;
+
+}
+#input-feild i{
+    font-size: 22px;
+    margin-right: 15px;
+    
+}
+.send-btn{
+    width: 10%;
+    border: none;
+    margin-top: 15px;
+    background: #3c91e6;
+    color: #fff;
+    font-size: 16px;
+    padding: 6px 0;
+    border-radius: 10px;
+}
+
+.JoditEditor{
+   
+   margin-top: 20px;
+}
