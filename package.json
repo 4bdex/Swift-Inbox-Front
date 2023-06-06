@@ -31,7 +31,7 @@
     "react-scripts": "5.0.1",
     "react-toastify": "^9.1.2",
     "styled-components": "^5.3.10",
-    "swift-inbox": "github:Kaoutar-n/SwiftInbox-front",
+    "swift-inbox": "github:4bdex/Swift-Inbox-Front",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
