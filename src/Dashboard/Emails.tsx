@@ -56,6 +56,12 @@ export function Emails() {
     }
   }
 
+  const parseSentenceToHTML = (sentence: string): React.ReactNode => {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(sentence, 'text/html');
+    return <>{doc.body.innerHTML}</>;
+  };
+
   const GetData = () => {
     if (storedData) {
       const parseddata = JSON.parse(storedData);
@@ -236,7 +242,7 @@ export function Emails() {
                             className="icon"
                           />
                         </i>
-                        <p>{mailData.body}</p>
+                        <p>{parseSentenceToHTML(mailData.body)}</p>
                       </div>
                       <Button
                         style={{
